@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-The aim of this projec was to gather data on all rental bike stations in Toronto, Ontario, Canada through the cityBike API.
+The aim of this project was to gather data on all rental bike stations in Toronto, Ontario, Canada through the cityBike API.
 
 More specifically, using the data on all bike stations, gather data on all bars and libraries within a 1000m (1km) radius of both POI's and investigate any potential relationships.
 
