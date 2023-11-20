@@ -1,4 +1,4 @@
-# Final-Project-Statistical-Modelling-with-Python
+# Exploring Urban Dynamics: Bike Station Proximity, Points of Interest, and Predictive Modeling in Toronto
 
 ## Project/Goals
 The aim of this project was to gather data on all rental bike stations in Toronto, Ontario, Canada through the cityBike API.
