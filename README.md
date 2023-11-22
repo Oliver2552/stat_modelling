@@ -20,7 +20,7 @@ Here, we gathered data, based on all bike station lat/long coordinates on all ba
 ### Step 3: EDA - Foursquare/Yelp Results Comparison
 Compared both results from Foursquare and Yelp to see which was better, which provided more info/details. Ultimately Foursquare was more favourable with more datapoints and would go on to be used in model building/regression.
 
-### Step 4: Model Building/OLS Regression/Results Interpretation
+### Step 4: Model Building/Multiple Linear Regression/Results Interpretation
 Using the DataFrame created from Foursquare results, a model was created to predict the number of free bikes, based on the number of bars and librarys local to each bike station as well as the POI with the shortest distance from each bike station.
 
 ## Results
