@@ -31,13 +31,12 @@ Key findings:
 - the final model had an adjusted R-squared of .116, implying that there is quite a bit of room available for further explanation in variability - more variables are needed.
 
 ## Challenges 
-- Need more time to further query the YELP API, where the rate limit of 500 meant we could only make 250 rows of data. we queried the Yelp api twice for every bike station, once for bars and once for librarys.
+- YELP's API has a lower rate limit of 500 meaning we could only make 250 rows of data. we queried the Yelp api twice for every bike station, once for bars and once for librarys.
 
 
 ## Future Goals
-If we had more time, we'd:
 
-- Query the YELP api over 3 days to feed in all 717 bike station cooridnated, for every 250 stations we made 500 calls which is the api's limit.
+- Query the YELP api over several days to feed in all 717 bike station cooridnated, for every 250 stations we made 500 calls which is the api's limit.
 
 - Find more POI's to explore so as to improve the models adj r-squared and explainbility, .116 is quite low.
 
