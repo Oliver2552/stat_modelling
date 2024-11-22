@@ -12,10 +12,12 @@ Finally, assess the quality of and interpret the model results.
 
 ## Process
 ### Step 1: Gather Data from CityBikes API
-Here we gathered data on all rental bike stations in Toronto, Canada. More specifically, extracted from the JSON the latitude and longitude of each bike station and the availability of bikes (during time of running query). 
+Here we gathered data on all rental bike stations in Toronto, Canada. More specifically, extracted from the JSON the latitude and longitude of each bike station and the availability of bikes (during time of running query). This can be seen in the 'city_bikes.ipynb' notebook in the notebooks folder.
 
 ### Step 2: Gather Data from Foursquare and Yelp API's
 Here, we gathered data, based on all bike station lat/long coordinates on all bars and librarys within a 1000m (1km) radius of each bike station. We then extracted info we needed and created dataframes for later exploration.
+
+Our method here of directly feeding in the latitutes and longitudes of each bike station (from the citybikes API) into both the YELP and Foursquare APIs ensure data integrity and data quality, with no duplicate rows. This can be seen in the 'bike_poi_radius_yelp.ipynb' and 'bike_poi_radius_fsq.ipynb' notebooks in the 'notebooks' folder.
 
 ### Step 3: EDA - Foursquare/Yelp Results Comparison
 Compared both results from Foursquare and Yelp to see which was better, which provided more info/details. Ultimately Foursquare was more favourable with more datapoints and would go on to be used in model building/regression.
