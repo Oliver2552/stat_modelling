@@ -23,7 +23,7 @@ Our method here of directly feeding in the latitutes and longitudes of each bike
 Compared both results from Foursquare and Yelp to see which was better, which provided more info/details. Ultimately Foursquare was more favourable with more datapoints and would go on to be used in model building/regression.
 
 ### Step 4: Model Building/Multiple Linear Regression/Results Interpretation
-Using the DataFrame created from Foursquare results, a model was created to predict the number of free bikes, based on the number of bars and librarys local to each bike station as well as the POI with the shortest distance from each bike station.
+Using the DataFrame created from Foursquare results, a model was created to predict the number of free bikes, based on the number of bars and libraries local to each bike station as well as the POI with the shortest distance from each bike station.
 
 ## Results
 Key findings:
@@ -33,12 +33,12 @@ Key findings:
 - the final model had an adjusted R-squared of .116, implying that there is quite a bit of room available for further explanation in variability - more variables are needed.
 
 ## Challenges 
-- YELP's API has a lower rate limit of 500 meaning we could only make 250 rows of data. we queried the Yelp api twice for every bike station, once for bars and once for librarys.
+- YELP's API has a lower rate limit of 500 meaning we could only make 250 rows of data. we queried the Yelp api twice for every bike station, once for bars and once for libraries.
 
 
 ## Future Goals
 
-- Query the YELP api over several days to feed in all 717 bike station cooridnated, for every 250 stations we made 500 calls which is the api's limit.
+- Query the YELP api over several days to feed in all 717 bike station cooridnates, for every 250 stations we made 500 calls which is the api's limit.
 
 - Find more POI's to explore so as to improve the models adj r-squared and explainbility, .116 is quite low.
 
